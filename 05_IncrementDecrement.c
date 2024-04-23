@@ -21,7 +21,7 @@ int main()
     printf("\n");
 
     int size = sizeof(num);
-    printf("Size of num: %d", size);
+    printf("Size of num: %d \n", size);
 
     return 0;
 }
