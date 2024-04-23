@@ -2,6 +2,8 @@
 
 int main()
 {
+    printf("Enter a number: \n");
+
     int n, r = 0;
     scanf("%d", &n);
 
@@ -15,9 +17,9 @@ int main()
     }
 
     if (n == r)
-        printf("Yup\n");
+        printf("Yes, %d is a Palindrome number\n", n);
     else
-        printf("Nope\n");
+        printf("No, %d is not a Palindrome number\n", n);
 
     return 0;
 }

@@ -3,6 +3,7 @@
 
 int main()
 {
+    printf("Enter a number: \n");
     int n, r = 0;
     scanf("%d", &n);
 
@@ -13,7 +14,7 @@ int main()
         n = n / 10;
     }
 
-    printf("Reverse: %d", r);
+    printf("Reverse: %d \n", r);
 
     return 0;
 }
